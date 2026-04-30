@@ -3,7 +3,40 @@
     padding: 0;
     border: 1px solid black;
 }
-
+main{
+background-color: #cfe4f5;
+}
+.criticas div img{
+    width: 40%;
+    height: auto;
+    border-radius: 100%;
+    
+}
+.Clientes div{
+    width: 50%;
+}
 #Form{
     text-align: center;
+}
+footer{
+    background-color: rgb(175, 172, 172);
+}
+header{
+    text-align: center;
+}
+.textoReseñas{
+    height: auto;
+    float:right ;
+}
+.boton{
+    box-shadow: 3px 3px 3px black;
+}
+.forms{
+    text-align: center;
+}
+.Clientes{
+    width: 99%;
+}
+.logo{
+    float: left;
 }

@@ -7,9 +7,20 @@
     <title>Landing page</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <nav>               
+            <h1>AquaSense</h1>
+            <ul>
+                <a href="">Inicio</a>
+                <a href="#">Nuestros productos</a>
+                <a href="#">soporte</a>
+            </ul>
+            
+        </nav>
+    </header>
+    
     <main>
-        <section>
+        <section class="introduccion">
             <div>
                 <h1>Agua potable, en cualquier lugar</h1>
                 <h2>Filtra bacterias, metales pesados y microplásticos potabilizando el agua en segundos</h2>
@@ -17,58 +28,109 @@
             <div>
 
             </div>
-            <img src="img/botellita.png" alt="asd">
-            <p>cuando estas en las montañas y no tenes agua no sabes que puede llegar a pasar, pero con nuestro producto, el potabilizador de agua con solo encontrar un lago o cascada vas a tener la seguridad de poder tomar agua de calidad y sin temer de las bacterias</p>
+            <img src="img/botellita.png" alt="asd" class="Logo">
+            <p>cuando estas en las montañas y no tenes agua no sabes que puede llegar a pasar, pero con nuestro producto, 
+                el potabilizador de agua con solo encontrar un lago o cascada vas a tener la seguridad de poder tomar agua
+                 de calidad y sin temer de las bacterias</p>
 
-            <a href="#">
+            <a href="#" class="boton">
                 <button>Comprar ahora</button>
             </a>
             
-            <a href="#">
+            <a href="#" class="boton">
                 <button>Ver como fuciona</button>
             </a>
         </section>
-        <div>
-            <h2>problemas si no compras nuestra botella</h2>
-            <p>Nunca estás seguro de si el agua que tomás es realmente segura: las botellas comunes no eliminan todo y los filtros actuales no te dicen si es potable. Esta botella lo soluciona con un sistema de filtración multicapa real y un indicador visual que te muestra al instante si el agua es segura</p>
-        </div>
+        <section class="problemas">
+            <div>
+                <h2>problemas con las botellas actuales</h2>
+                <p>Nunca estás seguro de si el agua que tomás es realmente segura: las botellas comunes no eliminan todo y 
+                    los filtros actuales no te dicen si es potable. Esta botella lo soluciona con un sistema de filtración 
+                    multicapa real y un indicador visual que te muestra al instante si el agua es segura</p>
+            </div>
+        </section>
         <section Class="beneficios">
             <h2>Beneficios de nuestro producto</h2>
-            <div>
-                <h3>Tomás agua sin riesgo</h3>
-                <p>Con esta botella purificadora, dejás de depender de la incertidumbre. Gracias a su sistema de filtración multicapa y su indicador visual de potabilidad, podés saber en todo momento si el agua que estás por tomar es segura. No importa si viene de una canilla dudosa, una fuente pública o un entorno natural: tenés una forma confiable de reducir riesgos y tomar con tranquilidad, sin tener que adivinar ni confiar a ciegas.</p>
-            </div>
-            <div>
-                <h3>Portátil y resistente</h3>
-                <p>Está diseñada para acompañarte a todos lados sin convertirse en una carga. Su estructura es liviana pero sólida, pensada para soportar golpes, caídas y el uso constante del día a día. La podés llevar en la mochila, en la mano o engancharla sin preocuparte por que se rompa o pierda eficacia, manteniendo siempre su rendimiento en distintas condiciones.</p>
-            </div>
-            <div>
-                <h3>Útil en viajes, emergencias y uso diario</h3>
-                <p>No es un producto para una sola situación: se adapta a distintos escenarios donde necesitás agua segura. Ya sea que estés viajando, en una salida al aire libre, frente a una emergencia o simplemente en tu rutina diaria, la botella responde igual de bien. Esto la convierte en una herramienta práctica y versátil, que podés usar tanto en momentos críticos como en lo cotidiano.</p>
+            <ol>
+                <li>
+                    <div>
+                        <h3>Tomás agua sin riesgo</h3>
+                        <p>Con esta botella purificadora, dejás de depender de la incertidumbre.
+                             Gracias a su sistema de filtración multicapa y su indicador visual de potabilidad,
+                              podés saber en todo momento si el agua que estás por tomar es segura. No importa 
+                              si viene de una canilla dudosa, una fuente pública o un entorno natural: tenés 
+                              una forma confiable de reducir riesgos y tomar con tranquilidad, sin tener que 
+                              adivinar ni confiar a ciegas.</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>Portátil y resistente</h3>
+                        <p>Está diseñada para acompañarte a todos lados sin convertirse en una carga.
+                             Su estructura es liviana pero sólida, pensada para soportar golpes,
+                              caídas y el uso constante del día a día. La podés llevar en la mochila, 
+                              en la mano o engancharla sin preocuparte por que se rompa o pierda eficacia, 
+                              manteniendo siempre su rendimiento en distintas condiciones.</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>Útil en viajes, emergencias y uso diario</h3>
+                        <p>No es un producto para una sola situación: se adapta a distintos escenarios 
+                            donde necesitás agua segura. Ya sea que estés viajando, en una salida al aire 
+                            libre, frente a una emergencia o simplemente en tu rutina diaria, la botella 
+                            responde igual de bien. Esto la convierte en una herramienta práctica y versátil, 
+                            que podés usar tanto en momentos críticos como en lo cotidiano.</p>
+                    </div>
+                </li>
+            </ol>
+        </section>
+        <section class="criticas">
+            <h2>No lo decimos nosotros, lo dicen nuestros clientes:</h2>
+            <div class="Clientes">
+                <div >
+                    <img src="img/pablo.png" alt="popeye">
+                </div>
+                <div >
+                <p>"¡hola!,Soy Pablo, y te digo: esta botella es ideal para cualquier aventura. 
+                    Te permite tomar agua con tranquilidad gracias a su sistema de filtración, y
+                     además es resistente y fácil de llevar a todos lados. Ya sea para explorar, 
+                     viajar o usar todos los días, es una solución práctica y confiable que te acompaña sin
+                      complicaciones." 
+                    -pablo
+                </p>
+                </div>
+                <div>                    
+                    <img src="img/popeye.png" alt="popeye">
+                </div>
+                <div >
+                     <p>“¡Arf! Probé esta botella y cumple de verdad. Filtra rápido,
+                         el agua queda segura y no tenés que andar dudando cada vez que 
+                         tomás. La usé en salidas y también en el día a día, y siempre 
+                         respondió igual de bien. Es liviana, resistente y fácil de llevar 
+                         a cualquier lado. Si querés algo simple, fuerte y confiable para 
+                         tomar agua sin vueltas, esta botella no falla.”
+                        — Popeye</p>
+        </div>
             </div>
         </section>
         <section>
-            <h2>No lo decimos nosotros, lo dicen nuestros clientes:</h2>
-            <div>
-                <img src="img/pablo.png" alt="PABLITOCHAD">
-                <p>¡hola!,Soy Pablo, y te digo: esta botella es ideal para cualquier aventura. Te permite tomar agua con tranquilidad gracias a su sistema de filtración, y además es resistente y fácil de llevar a todos lados. Ya sea para explorar, viajar o usar todos los días, es una solución práctica y confiable que te acompaña sin complicaciones.</p>
-            </div>
-        </section>
-
-        <form method="post">
+        <form method="post" class="forms">
             <p>¿Quieres mas informacion?</p>
-            Nombre: <input type="text" name="user" id="Form" placeholder="Nombre"/><br/>
-            Mail: <input type="text" name="dire" id="Form" placeholder="Mail"/><br/>
+            Nombre: <input type="text" name="user" id="Form" id="Form" placeholder="Nombre"/><br/>
+            Mail: <input type="text" name="dire" id="Form" id="Form" placeholder="Mail"/><br/>
             Telefono: <input type="number" name="numero" id="Form" placeholder="Numero"/><br/>
               <a href="#">
                 <button>Enviar</button>
             </a>
         </form>
-
-        
-
-
+    </section>
     </main>
-    <footer>Todos los derechos reservados para pepitos inc</footer>
+    <footer>
+        
+        Todos los derechos reservados para pepitos ©
+        <p><a href="#">Instagram</a> <a href="#">Tiktok</a> <a href="#">Youtube</a></p>
+
+    </footer>
 </body>
 </html>

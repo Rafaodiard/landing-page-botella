@@ -1,20 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    border: 1px solid black;
+    border:1px solid black
 }
 main{
-background-color: #cfe4f5;
+background-color: #CFDEE7;
 }
-.criticas div img{
-    width: 40%;
-    height: auto;
-    border-radius: 100%;
-    
-}
-.Clientes div{
-    width: 50%;
-}
+
 #Form{
     text-align: center;
 }
@@ -24,19 +16,87 @@ footer{
 header{
     text-align: center;
 }
-.textoReseñas{
-    height: auto;
-    float:right ;
-}
-.boton{
-    box-shadow: 3px 3px 3px black;
-}
+
 .forms{
     text-align: center;
 }
 .Clientes{
     width: 99%;
 }
-.logo{
-    float: left;
+.criticas div img{
+    width: 40%;
+    height: auto;
+    border-radius: 100%;
+    color
 }
+.Clientes div{
+    width: 50%;
+}
+.introduccion img{
+    float: right;
+    border-radius: 0 0 0px 20px;
+    margin-right: -1px;
+    width: 37%;
+    height: auto;
+
+}
+p{
+
+    width: 50%;
+}
+.introduccion{
+    margin-bottom: 100px;
+        }
+.problemas {
+    clear: both;
+    margin-top: 10%;
+    background-color: #5E7CE2;
+    border-radius: 20px 20px 20px 20px;} 
+.botones{
+    width: auto;
+    float: left;
+
+}
+.introduccion div{
+    margin-right: 10%;
+    margin-top: 7%;
+    width: 40%;
+    float: right;
+    margin-left: 10%;
+    color: #243447;
+}
+.introduccion div h2{
+    margin-top: 5%;
+    font-size: 30px;
+    color: #4e5d6e;
+    
+}
+.introduccion div h1{
+    margin-left: 5%;
+    font-size: 70px;
+    font-family: Verdana, sans-serif;
+}
+
+.introduccion button{
+    background-color: #243447;
+    color: white;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.introduccion div div{
+margin-top: 5%;
+width: 100%;
+
+}
+.introduccion div div a{
+display:inline-block;
+margin-left: 5%;
+}
+
+
+
+

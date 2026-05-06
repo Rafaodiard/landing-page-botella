@@ -9,7 +9,8 @@ background-color: #CFDEE7;
 
 
 footer{
-    background-color: rgb(175, 172, 172);
+    background-color:#94b4c1;
+    padding-top: 1%;
 }
 header{
     text-align: center;
@@ -153,30 +154,45 @@ margin-left: 5%;
 
 
 
-
+.beneficios{
+    margin-top: 5%;
+    margin-bottom: 7%;
+    overflow: hidden;
+}
 .beneficios h2{
     font-size: 50px;
+    margin-left:35%;
+    margin-bottom: 4%;
 }
 
 .beneficios li{
   float: left;
   width: 30%;
-  margin: 1%;
+  margin: 1%;   
 }
-
-.beneficios li div {
-  height: 250px;
-  padding: 15px;
+.beneficios h3{
+    font-size: 25px;
+    text-align: center;
+    width: fit-content;
+    margin-left: 7%;
+}
+.beneficios ol {
+margin-left: 15%;
+overflow: hidden;
 }
 
 .beneficios ol {
   list-style: none;
   padding: 0;
+}
   
+.beneficios .viajes{
+    margin-left:13%;
 }
 .beneficios ol li div p {
     background-color: rgb(173, 204, 213);
-    padding: 1%;
+    padding: 4%;
+    border-radius: 20px;
 }
 
 
@@ -185,29 +201,35 @@ margin-left: 5%;
 
 .criticas{
     clear: both;
-}
-.criticas h2{
-    margin-top: 350px;
+    background-color: #b9c7db;
+    overflow: hidden;
+    padding: 0;
+    height: fit-content;
+    margin-top: 50%;
+
 }
 .Clientes div p{
 
     font-size: 18px;
     margin-bottom: 8%;
-    margin-top: 5%;
+    margin-top: 1.8%;
     margin-left: 0;
     float: left;
     background-color:rgb(49, 89, 109);
     border-radius: 15px;
     padding: 1%;
     color: white;
+
    
 }
 .criticas h2{
-    margin-left:3%;
+    margin-top: 3%;
+    margin-left:30%;
     font-size: 30px;
     background-color:aliceblue;
     width: fit-content;
     padding: 1%;
+    margin-bottom: 4%;
     border-radius: 15px;
 }
 .criticas{
@@ -218,12 +240,14 @@ margin-left: 5%;
     clear: left;
     width: 150px; 
     height: auto;
+    margin-left: 2%;
     border-radius: 100%;
     float: left;
     margin-right: 3%; 
-    margin-top: 3%;}
+    margin-top: .3%;}
 .Clientes{
     width: 99%;
+    overflow: hidden;
 }
 
 .Clientes div{
@@ -236,6 +260,7 @@ margin-left: 5%;
 
 
 .forms{
+    margin-top: 5%;
     clear: both;
 }
 
@@ -261,4 +286,7 @@ margin-left: 5%;
     display: inline-block;
     font-size: 16px;
     margin-bottom: 1%;
+}
+footer{
+
 }

@@ -1,80 +1,110 @@
 *{
     margin: 0;
     padding: 0;
-    border:1px solid black
+
 }
 main{
 background-color: #CFDEE7;
 }
 
-#Form{
-    text-align: center;
-}
+
 footer{
     background-color: rgb(175, 172, 172);
 }
 header{
     text-align: center;
+    background-color: #94b4c1;
+    padding-bottom: 1%;
+    padding-top: .7%;
+    min-height: 60px;
+    height:fit-content ;
 }
 
-.forms{
-    text-align: center;
-}
-.Clientes{
-    width: 99%;
-}
-.criticas div img{
-    width: 40%;
+header ul{
+   
     height: auto;
-    border-radius: 100%;
-    color
+    width: 30%;
+    margin-top: 1%;
+    padding-top: .7%;
+    float: left;
 }
-.Clientes div{
+header nav h1{
+    color: solid black;
+    font-size: 40px;    
+    width: fit-content;
+    margin-left: 20%;
+    float: left;
+    margin-top: .7%;
+    
+}
+header nav a{
+    text-decoration: none;
+    background-color:#243447 ;
+    color: white;
+    padding:.5% ;
+    border-radius: 20px;
+    margin-right:15px; 
+    font-size: 20px;    
+}
+
+
+h1{
+        font-family: Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+p{
+
     width: 50%;
 }
+
+
+
+
+
+
+
 .introduccion img{
     float: right;
-    border-radius: 0 0 0px 20px;
     margin-right: -1px;
     width: 37%;
     height: auto;
 
 }
-p{
 
-    width: 50%;
-}
 .introduccion{
-    margin-bottom: 100px;
-        }
-.problemas {
-    clear: both;
-    margin-top: 10%;
-    background-color: #5E7CE2;
-    border-radius: 20px 20px 20px 20px;} 
-.botones{
-    width: auto;
-    float: left;
-
+    width: 100%;
+    height: fit-content;
 }
+
 .introduccion div{
     margin-right: 10%;
     margin-top: 7%;
     width: 40%;
     float: right;
     margin-left: 10%;
-    color: #243447;
 }
 .introduccion div h2{
     margin-top: 5%;
     font-size: 30px;
-    color: #4e5d6e;
     
 }
 .introduccion div h1{
     margin-left: 5%;
     font-size: 70px;
-    font-family: Verdana, sans-serif;
+}
+h1{
+        color: #243447;
+}
+h2{
+        color: #4e5d6e;
 }
 
 .introduccion button{
@@ -100,3 +130,135 @@ margin-left: 5%;
 
 
 
+.problemas {
+    clear: both;
+    background-color: #a8b9c7;
+    height: fit-content;
+    padding-top:1%;
+    padding-bottom: 1%; 
+    text-align: center;
+    font-size: 30px;
+
+} 
+.problemas p{
+      margin: 0 auto;
+      font-size: 30px;
+      color:rgb(49, 89, 109);
+}
+.problemas h1{
+    font-size: 40px;
+}
+
+
+
+
+
+
+.beneficios h2{
+    font-size: 50px;
+}
+
+.beneficios li{
+  float: left;
+  width: 30%;
+  margin: 1%;
+}
+
+.beneficios li div {
+  height: 250px;
+  padding: 15px;
+}
+
+.beneficios ol {
+  list-style: none;
+  padding: 0;
+  
+}
+.beneficios ol li div p {
+    background-color: rgb(173, 204, 213);
+    padding: 1%;
+}
+
+
+
+
+
+.criticas{
+    clear: both;
+}
+.criticas h2{
+    margin-top: 350px;
+}
+.Clientes div p{
+
+    font-size: 18px;
+    margin-bottom: 8%;
+    margin-top: 5%;
+    margin-left: 0;
+    float: left;
+    background-color:rgb(49, 89, 109);
+    border-radius: 15px;
+    padding: 1%;
+    color: white;
+   
+}
+.criticas h2{
+    margin-left:3%;
+    font-size: 30px;
+    background-color:aliceblue;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 15px;
+}
+.criticas{
+    margin-top: 2%;
+    
+}
+.Clientes img {
+    clear: left;
+    width: 150px; 
+    height: auto;
+    border-radius: 100%;
+    float: left;
+    margin-right: 3%; 
+    margin-top: 3%;}
+.Clientes{
+    width: 99%;
+}
+
+.Clientes div{
+    width: fit-content;
+    
+}
+
+
+
+
+
+.forms{
+    clear: both;
+}
+
+.forms form p{
+    font-size: 60px;
+    margin-left: 25%;
+}
+.forms form{
+    text-align: center;
+}
+.forms form input {
+  margin-top: 10px;   
+  margin-bottom: 10px; 
+  padding: 8px;       
+  width: 250px;       
+}
+.forms form  button{
+    background-color: #919caa;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 1%;
+}

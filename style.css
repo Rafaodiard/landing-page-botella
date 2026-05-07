@@ -157,7 +157,7 @@ margin-left: 5%;
 .beneficios{
     margin-top: 5%;
     margin-bottom: 7%;
-    overflow: hidden;
+    display: inline-block;
 }
 .beneficios h2{
     font-size: 50px;
@@ -178,7 +178,7 @@ margin-left: 5%;
 }
 .beneficios ol {
 margin-left: 15%;
-overflow: hidden;
+display: inline-block;
 }
 
 .beneficios ol {
@@ -202,7 +202,7 @@ overflow: hidden;
 .criticas{
     clear: both;
     background-color: #b9c7db;
-    overflow: hidden;
+    display: inline-block;
     padding: 0;
     height: fit-content;
     margin-top: 50%;
@@ -247,7 +247,7 @@ overflow: hidden;
     margin-top: .3%;}
 .Clientes{
     width: 99%;
-    overflow: hidden;
+    display: inline-block;
 }
 
 .Clientes div{
